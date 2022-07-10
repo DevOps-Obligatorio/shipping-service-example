@@ -25,7 +25,6 @@
 #    and best practices on handling the access key credentials.
 
 
-
 name: testing_code
 on:
   push:
@@ -66,7 +65,7 @@ jobs:
 
   build:
     name: Build
-    needs: [test]
+    #needs: [test]
     runs-on: ubuntu-latest
 
     steps:
@@ -92,7 +91,7 @@ jobs:
 
   deploy:
     name: Deploy
-    needs: [build]
+    #needs: [build]
     runs-on: ubuntu-latest
 
     steps:
