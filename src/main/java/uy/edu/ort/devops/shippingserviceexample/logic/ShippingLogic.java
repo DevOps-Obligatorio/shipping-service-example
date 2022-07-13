@@ -9,17 +9,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 System.out.println("hola");
-System.out.println("hola");
-System.out.println("hola");
-System.out.println("hola");
-System.out.println("hola");
-System.out.println("hola");
-System.out.println("hola");
-System.out.println("hola");
-System.out.println("hola");
-System.out.println("hola");
-System.out.println("hola");
-
 
 @Service
 public class ShippingLogic {
@@ -32,6 +21,15 @@ public class ShippingLogic {
         testShipping.put("a", new Shipping("Delivered", "a"));
         testShipping.put("b", new Shipping("In transit", "b"));
         testShipping.put("c", new Shipping("Preparing", "c"));
+
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+
     }
 
     public void addShipping(String id) {
