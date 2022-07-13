@@ -8,6 +8,8 @@ import uy.edu.ort.devops.shippingserviceexample.domain.Shipping;
 import java.util.HashMap;
 import java.util.Map;
 
+System.out.println("hola");
+
 @Service
 public class ShippingLogic {
     private static Logger logger = LoggerFactory.getLogger(ShippingLogic.class);
@@ -19,6 +21,15 @@ public class ShippingLogic {
         testShipping.put("a", new Shipping("Delivered", "a"));
         testShipping.put("b", new Shipping("In transit", "b"));
         testShipping.put("c", new Shipping("Preparing", "c"));
+
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
+
     }
 
     public void addShipping(String id) {
@@ -33,4 +44,5 @@ public class ShippingLogic {
         logger.info("Getting shipping: " + id);
         return testShipping.get(id);
     }
+
 }
