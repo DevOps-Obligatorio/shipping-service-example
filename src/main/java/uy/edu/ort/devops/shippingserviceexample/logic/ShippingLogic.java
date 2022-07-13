@@ -12,41 +12,6 @@ import java.util.Map;
 public class ShippingLogic {
     private static Logger logger = LoggerFactory.getLogger(ShippingLogic.class);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     private Map<String, Shipping> testShipping;
 
     public ShippingLogic() {
@@ -68,4 +33,11 @@ public class ShippingLogic {
         logger.info("Getting shipping: " + id);
         return testShipping.get(id);
     }
+    System.out.println("hola");
+    System.out.println("hola");
+    System.out.println("hola");
+    System.out.println("hola");
+    System.out.println("hola");
+    System.out.println("hola");
+    System.out.println("hola");
 }
